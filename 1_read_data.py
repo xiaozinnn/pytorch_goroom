@@ -1,4 +1,4 @@
-# 读取数据
+# 读取数据-测试数据
 from torch.utils.data import Dataset
 from PIL import Image
 import os
