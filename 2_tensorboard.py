@@ -10,8 +10,8 @@ img_array = np.array(img_PIL)
 print(type(img_array))
 print(img_array.shape)
 
-writer.add_image("tran",img_array,3,dataformats='HWC')
+writer.add_image("tran", img_array, 3, dataformats='HWC')
 for i in range(100):
-    writer.add_scalar("y=2x", 2*i, i)
+    writer.add_scalar("y=2x", 2 * i, i)
 
 writer.close()
