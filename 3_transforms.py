@@ -9,7 +9,6 @@ img_path = Image.open(path)
 
 writer = SummaryWriter("logs")
 
-
 # 1、transforms如何被使用
 tensor_tran = transforms.ToTensor()
 tersor_img = tensor_tran(img_path)
