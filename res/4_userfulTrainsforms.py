@@ -6,9 +6,9 @@ from torch.utils.tensorboard import SummaryWriter
 from torchvision import transforms
 import numpy as np
 
-writer = SummaryWriter("logs")
+writer = SummaryWriter("../logs")
 
-img = Image.open("dataset/train/ants_image/0013035.jpg")
+img = Image.open("../dataset/train/ants_image/0013035.jpg")
 
 # ToTensor使用：将图片类型转换为ToTensor类型
 trans_totensor = transforms.ToTensor()

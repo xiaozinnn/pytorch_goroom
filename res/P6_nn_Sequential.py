@@ -52,6 +52,6 @@ input_date = torch.ones((64,3,32,32))
 output = mydate(input_date)
 print(output.shape)
 
-writer = SummaryWriter("./logs_sep")
+writer = SummaryWriter("../logs_sep")
 writer.add_graph(mydate,input_date)
 writer.close()

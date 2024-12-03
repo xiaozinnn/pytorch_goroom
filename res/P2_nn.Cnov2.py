@@ -23,7 +23,7 @@ class Tudui(nn.Module):
 
 tudui = Tudui()
 
-writer = SummaryWriter("logs")
+writer = SummaryWriter("../logs")
 temp = 0
 for data in dataloader1:
     imgs, targets = data

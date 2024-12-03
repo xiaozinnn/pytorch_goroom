@@ -24,7 +24,7 @@ class MyDate(nn.Module):
 
 mydata = MyDate()
 
-writer = SummaryWriter("./logs_ReLU")
+writer = SummaryWriter("../logs_ReLU")
 step = 0
 for data in dataloader:
     imgs, targets = data

@@ -79,7 +79,7 @@ total_test_step = 0
 epoch = 10
 
 # 使用tensorboard记录损失率
-writer = SummaryWriter("logs_loss")
+writer = SummaryWriter("../logs_loss")
 
 # 开始训练
 for i in range(epoch):

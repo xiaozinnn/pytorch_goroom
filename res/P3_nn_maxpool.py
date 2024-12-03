@@ -23,7 +23,7 @@ class Mydate(nn.Module):
 
 mydate = Mydate()
 
-writer = SummaryWriter("./logs_maxpool")
+writer = SummaryWriter("../logs_maxpool")
 temp = 0
 for data in dataloader:
     imgs,targets = data
